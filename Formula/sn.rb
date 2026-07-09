@@ -1,25 +1,25 @@
 class Sn < Formula
   desc "Agent-forward CLI for ServiceNow — Table, Change, CMDB, Attachment, Catalog, Import, CICD, and more"
   homepage "https://github.com/tehubersheezy/servicenow-cli"
-  version "0.6.1"
+  version "0.7.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.6.1/sn-aarch64-apple-darwin.tar.xz"
-      sha256 "1cbb9871980d4a2154a07d60431d8202a41e7ef618e2ade3369d68c36de8f6e8"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.7.1/sn-aarch64-apple-darwin.tar.xz"
+      sha256 "0e144f8ebdcd9804f0204cf04d32af4db072d34720af9abea55b65bff1200234"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.6.1/sn-x86_64-apple-darwin.tar.xz"
-      sha256 "d848982a3f730b1954dbceedfabff89148055f26ca5110d9bd5577dc2ce3e5ee"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.7.1/sn-x86_64-apple-darwin.tar.xz"
+      sha256 "684cebe00acc787ce5eb119dfa8d9d036e989eff730414573a3f52e371aa6169"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.6.1/sn-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "568968c4281c98e64f387238932a40585033c7631c9d5575c00be49ae0e85af3"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.7.1/sn-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "376935d76c092da90f2b8f4f2791f96b979ae738f3adf51a39cec7d6cdd79afa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.6.1/sn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "03df1312e26d6b298d0a919b8ddef0622e35843f98469756193a8a01afe299d0"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.7.1/sn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "702dfd32184b1f71ddfe7f5fa14dda13942e6c2d61a408d4cc1687298e576635"
     end
   end
   license "MIT"
