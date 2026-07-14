@@ -1,25 +1,25 @@
 class Sn < Formula
   desc "Agent-forward CLI for ServiceNow — Table, Change, CMDB, Attachment, Catalog, Import, CICD, and more"
   homepage "https://github.com/tehubersheezy/servicenow-cli"
-  version "0.9.1"
+  version "0.10.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.9.1/sn-aarch64-apple-darwin.tar.xz"
-      sha256 "bf8f5239405255b4af367ca2a74d0b76172cdeafd0684779c6a7a9df6836aa39"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.10.0/sn-aarch64-apple-darwin.tar.xz"
+      sha256 "27a5e509a0750ff43f1898e7a4d106b5dee405fd680c3995c9b04f33854206db"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.9.1/sn-x86_64-apple-darwin.tar.xz"
-      sha256 "d0f0d7e4b1a5c9ad429f135fb6a24002fc54f14c274be79bc1a26b4e5db59805"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.10.0/sn-x86_64-apple-darwin.tar.xz"
+      sha256 "c14c876b0e9f073d2eb03f5feca48abc07503dbc64c74b658b93a6cdeb750345"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.9.1/sn-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1e86c351848adc1e2169e791eba82e7f555ca77d681fb9c33e89fc24b3f19452"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.10.0/sn-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "33e19ba9bfe656519ce2cd17cb4a311a0665a10179dbdd7e9c841dccb6bb08c6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.9.1/sn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ff59fe872d48e51d6a2d9b1233be90029e262971475c4f33da169ba5e384fb14"
+      url "https://github.com/tehubersheezy/servicenow-cli/releases/download/v0.10.0/sn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "52e8268d88179843ed6890f94401c1e55f910b35421b0b685214ab9df154dfbd"
     end
   end
   license "MIT"
